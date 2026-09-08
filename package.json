@@ -1,0 +1,26 @@
+{
+  "name": "supportdesk",
+  "version": "1.0.0",
+  "description": "SupportDesk — Customer Support Ticket Management System (React, Express, PostgreSQL, Docker)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js"
+  },
+  "keywords": [
+    "support",
+    "tickets",
+    "express",
+    "react",
+    "postgresql",
+    "docker"
+  ],
+  "author": "Nexora AI Office & Saurav Pawar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "pg": "^8.12.0"
+  }
+}
